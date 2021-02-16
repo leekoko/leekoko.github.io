@@ -513,3 +513,13 @@ icp:
   enable: false
   url: # 备案链接
   text: # 备案信息
+
+#搜索插件
+search:
+  path: search.xml
+  field: post
+
+#中文链接转拼音插件
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
